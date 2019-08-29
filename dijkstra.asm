@@ -1,13 +1,13 @@
 .data
 n: .word 
-adj: .space 324 # (500 x 500) bytes
-cost: .space 324 # (500 x 500) bytes
-visited: .space 36 # 500 integers
-distance: .space 36 # 500 integers
-parent: .space 36 # 500 integers
+adj: .space 250000 # (500 x 500) bytes
+cost: .space 250000 # (500 x 500) bytes
+visited: .space 2000 # 500 integers
+distance: .space 2000 # 500 integers
+parent: .space 2000 # 500 integers
 priority_queue: .space 10004
 aqui: .asciiz "aqui"
-comecando_dijkstra: .asciiz "Começando Dijkstra..."
+comecando_dijkstra: .asciiz "ComeÃ§ando Dijkstra..."
 fim_dijkstra: .asciiz "...fim do Dijkstra"
 visitando: .asciiz "Visitando "
 relaxando: .asciiz "Relaxando "
