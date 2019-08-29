@@ -3,4 +3,9 @@ project(Algoritmos_em_grafos)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Algoritmos_em_grafos main.cpp)
+include_directories(include)
+
+add_executable(dijkstra dijkstra.cpp)
+add_executable(tarjan tarjan.cpp)
+add_executable(bellmanFord bellmanFord.cpp)
+add_executable(fordFulkerson fordFulkerson.cpp)
